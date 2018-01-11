@@ -63,6 +63,9 @@ The main goal is to make it easy to have nice looking Java Swing Editors with su
             <goals>
               <goal>generate</goal>
             </goals>
+			<configuration>
+			  <outputDirectory>src/main/java</outputDirectory>
+			</configuration>
           </execution>
         </executions>
       </plugin>
