@@ -22,14 +22,6 @@ The main goal is to make it easy to have nice looking Java Swing Editors with su
     <url>https://github.com/nordfalk/jsyntaxpane</url>
   </scm>
 
-  <pluginRepositories>
-    <pluginRepository>
-      <id>jflex</id>
-      <name>JFlex repository</name>
-      <url>http://jflex.sourceforge.net/repo/</url>
-    </pluginRepository>
-  </pluginRepositories>
-
   <build>
     <plugins>
       <plugin>
@@ -63,9 +55,9 @@ The main goal is to make it easy to have nice looking Java Swing Editors with su
         </configuration>
       </plugin>
       <plugin>
-        <groupId>de.jflex</groupId>
-        <artifactId>maven-jflex-plugin</artifactId>
-        <!--version>0.2</version-->
+		<groupId>de.jflex</groupId>
+		<artifactId>jflex-maven-plugin</artifactId>
+		<version>1.6.1</version>
         <executions>
           <execution>
             <goals>
